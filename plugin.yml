@@ -1,0 +1,19 @@
+name: WalkFixer
+author: Marcsello
+main: com.marcsello.WalkFixer.WalkFixer
+version: 1.0
+commands:
+  wfix:
+    description: Forcefully fix walkspeed
+    usage: /wfix [Player]
+    
+permissions:
+  walkfixer.wfix.others:
+    description: Allows forcefully fixing someones walk speed (that does not involve the player who issued the command!)
+    default: op
+  walkfixer.wfix.self:
+    description: Allow players fixing walkspeed for themselves
+    default: true
+  walkfixer.wfix.allow_good:
+    description: Forces a fix even if the plugin assumes that it's not necessary
+    default: op

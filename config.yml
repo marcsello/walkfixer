@@ -1,0 +1,4 @@
+attempt-autofix: false
+zero-bad-only: true
+tell-target: true
+target-message: "Hold on! Your walk speed is being fixed."
